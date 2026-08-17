@@ -1,0 +1,65 @@
+{
+  "scannedAt": "2026-08-17T07:32:27Z",
+  "sources": [
+    {
+      "name": "ASW-SOLIC Industry Day",
+      "channel": "SO/LIC Accelerator",
+      "url": "https://soarc.gov/IndustryDay",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://soarc.gov/IndustryDay",
+      "title": "Industry Day",
+      "candidateCount": 0
+    },
+    {
+      "name": "SOFWERX",
+      "channel": "SOFWERX",
+      "url": "https://www.sofwerx.org/",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://www.sofwerx.org/",
+      "title": "SOFWERX: Collaborative Solutions for Warfighter Challenges",
+      "candidateCount": 1
+    },
+    {
+      "name": "SOFWERX Events",
+      "channel": "SOFWERX",
+      "url": "https://events.sofwerx.org/",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://events.sofwerx.org/",
+      "title": "Upcoming SOFWERX Events: Innovate & Collaborate for Special Operations Forces",
+      "candidateCount": 1
+    },
+    {
+      "name": "USSOCOM SBIR/STTR",
+      "channel": "USSOCOM SBIR/STTR",
+      "url": "https://www.socom.mil/sof-atl/pages/sbir.aspx",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://www.socom.mil/sof-atl/pages/sbir.aspx",
+      "title": "Small Business Innovation Research",
+      "candidateCount": 0
+    },
+    {
+      "name": "DIU Open Solicitations",
+      "channel": "DIU",
+      "url": "https://www.diu.mil/work-with-us/open-solicitations",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://www.diu.mil/work-with-us/open-solicitations",
+      "title": "Work With Us - Open Solicitations - Commercial",
+      "candidateCount": 0
+    },
+    {
+      "name": "SOF Week Accelerator Alley",
+      "channel": "SOF Week",
+      "url": "https://sofweek.org/visit-accelerator-alley/",
+      "checkedAt": "2026-08-17T07:32:27Z",
+      "status": 200,
+      "finalUrl": "https://sofweek.org/visit-accelerator-alley/",
+      "title": "Accelerator Alley \u2013 Showcase Innovation at SOF Week",
+      "candidateCount": 1
+    }
+  ]
+}
