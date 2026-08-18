@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Normalize tracker data
+        run: python scripts/normalize_data.py
       - name: Scan configured public sources
         run: python scripts/scan.py
       - name: Commit refreshed scan artifacts and tracker records
