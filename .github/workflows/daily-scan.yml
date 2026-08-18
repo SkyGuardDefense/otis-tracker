@@ -20,9 +20,9 @@ jobs:
           python-version: '3.12'
       - name: Scan configured public sources
         run: python scripts/scan.py
-      - name: Commit refreshed scan artifacts
+      - name: Commit refreshed scan artifacts and tracker records
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports/latest-scan.json reports/candidates.json data/opportunities.csv
+          git add reports/latest-scan.json reports/candidates.json data/opportunities.json data/opportunities.csv
           if git diff --cached --quiet; then echo "No scan artifact changes to commit."; else git commit -m "chore: daily OTIS opportunity scan" && git push; fi
