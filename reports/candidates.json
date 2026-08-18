@@ -8,7 +8,19 @@
     "keywordMatches": [
       "unmanned"
     ],
-    "checkedAt": "2026-08-17T13:30:54Z",
+    "checkedAt": "2026-08-18T01:16:35Z",
+    "reviewStatus": "Needs validation"
+  },
+  {
+    "source": "SOFWERX",
+    "channel": "SOFWERX",
+    "sourceUrl": "https://www.sofwerx.org/",
+    "candidateUrl": "https://events.sofwerx.org/uxsaimissionautonomy",
+    "anchorText": "PEO-SDA: UxSAI Mission Autonomy Systems 29 September - 01 October 2026",
+    "keywordMatches": [
+      "autonomy"
+    ],
+    "checkedAt": "2026-08-18T01:16:35Z",
     "reviewStatus": "Needs validation"
   },
   {
@@ -20,7 +32,19 @@
     "keywordMatches": [
       "unmanned"
     ],
-    "checkedAt": "2026-08-17T13:30:54Z",
+    "checkedAt": "2026-08-18T01:16:35Z",
+    "reviewStatus": "Needs validation"
+  },
+  {
+    "source": "SOFWERX Events",
+    "channel": "SOFWERX",
+    "sourceUrl": "https://events.sofwerx.org/",
+    "candidateUrl": "https://events.sofwerx.org/uxsaimissionautonomy",
+    "anchorText": "PEO-SDA: UxSAI Mission Autonomy Systems 29 September - 01 October 2026",
+    "keywordMatches": [
+      "autonomy"
+    ],
+    "checkedAt": "2026-08-18T01:16:35Z",
     "reviewStatus": "Needs validation"
   },
   {
@@ -32,7 +56,7 @@
     "keywordMatches": [
       "drone"
     ],
-    "checkedAt": "2026-08-17T13:30:54Z",
+    "checkedAt": "2026-08-18T01:16:35Z",
     "reviewStatus": "Needs validation"
   }
 ]
