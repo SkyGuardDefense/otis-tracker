@@ -1,11 +1,11 @@
 {
-  "scannedAt": "2026-08-18T06:34:28Z",
+  "scannedAt": "2026-08-18T06:59:21Z",
   "sources": [
     {
       "name": "ASW-SOLIC Industry Day",
       "channel": "SO/LIC Accelerator",
       "url": "https://soarc.gov/IndustryDay",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://soarc.gov/IndustryDay",
       "title": "Industry Day",
@@ -15,47 +15,47 @@
       "name": "SOFWERX",
       "channel": "SOFWERX",
       "url": "https://www.sofwerx.org/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.sofwerx.org/",
       "title": "SOFWERX: Collaborative Solutions for Warfighter Challenges",
-      "candidateCount": 2
+      "candidateCount": 10
     },
     {
       "name": "SOFWERX Events",
       "channel": "SOFWERX",
       "url": "https://events.sofwerx.org/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://events.sofwerx.org/",
       "title": "Upcoming SOFWERX Events: Innovate & Collaborate for Special Operations Forces",
-      "candidateCount": 2
+      "candidateCount": 7
     },
     {
       "name": "SOFWERX SBIR 26.BZ Release 4",
       "channel": "SOFWERX SBIR/STTR",
       "url": "https://events.sofwerx.org/sbir-26-bz-release-4",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://events.sofwerx.org/sbir-26-bz-release-4",
       "title": "SBIR 26.BZ: Funding for Small Business Innovation",
-      "candidateCount": 1
+      "candidateCount": 12
     },
     {
       "name": "USSOCOM SBIR/STTR",
       "channel": "USSOCOM SBIR/STTR",
       "url": "https://www.socom.mil/sof-atl/pages/sbir.aspx",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.socom.mil/sof-atl/pages/sbir.aspx",
       "title": "Small Business Innovation Research",
-      "candidateCount": 0
+      "candidateCount": 9
     },
     {
       "name": "DoD SBIR/STTR Topics and Topic Q&A",
       "channel": "DoD SBIR/STTR",
       "url": "https://www.dodsbirsttr.mil/topics-app/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.dodsbirsttr.mil/topics-app/",
       "title": "DSIP (DoW SBIR/STTR Innovation Portal)",
@@ -65,70 +65,70 @@
       "name": "AFWERX",
       "channel": "AFWERX",
       "url": "https://www.afwerx.com/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://afwerx.com/",
       "title": "Home - AFWERX",
-      "candidateCount": 0
+      "candidateCount": 9
     },
     {
       "name": "Navy SBIR/STTR",
       "channel": "Navy SBIR/STTR",
       "url": "https://www.navysbir.com/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.navysbir.com/",
       "title": "Navy SBIR/STTR Home",
-      "candidateCount": 0
+      "candidateCount": 54
     },
     {
       "name": "SBIR.gov Participating Agencies",
       "channel": "Federal SBIR/STTR",
       "url": "https://www.sbir.gov/participating-agencies",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.sbir.gov/participating-agencies",
       "title": "Agencies | SBIR",
-      "candidateCount": 0
+      "candidateCount": 32
     },
     {
       "name": "Department of Homeland Security",
       "channel": "DHS",
       "url": "https://www.dhs.gov/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "name": "Department of Defense",
       "channel": "DoD",
       "url": "https://www.defense.gov/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "name": "DIU Open Solicitations",
       "channel": "DIU",
       "url": "https://www.diu.mil/work-with-us/open-solicitations",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://www.diu.mil/work-with-us/open-solicitations",
       "title": "Work With Us - Open Solicitations - Commercial",
-      "candidateCount": 0
+      "candidateCount": 1
     },
     {
       "name": "SOF Week Accelerator Alley",
       "channel": "SOF Week",
       "url": "https://sofweek.org/visit-accelerator-alley/",
-      "checkedAt": "2026-08-18T06:34:28Z",
+      "checkedAt": "2026-08-18T06:59:21Z",
       "status": 200,
       "finalUrl": "https://sofweek.org/visit-accelerator-alley/",
       "title": "Accelerator Alley \u2013 Showcase Innovation at SOF Week",
-      "candidateCount": 1
+      "candidateCount": 2
     }
   ],
   "trackerUpsert": {
-    "added": 1,
-    "updated": 5,
-    "totalRecords": 5
+    "added": 115,
+    "updated": 21,
+    "totalRecords": 120
   }
 }
