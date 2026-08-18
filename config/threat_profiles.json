@@ -1,0 +1,11 @@
+{
+  "priorityOrder": ["fiber_optic_guided", "glide_terminal", "rf_silent_autonomy", "gps_adversarial_navigation", "adversarial_optical", "flytrap_class"],
+  "profiles": {
+    "fiber_optic_guided": {"label": "Fiber-Optic / RF-Denied Guided Threats", "terms": ["fiber optic", "wire guided", "rf denied", "passive optical"]},
+    "glide_terminal": {"label": "Glide and Terminal-Phase Threats", "terms": ["glide", "terminal phase", "ballistic discrimination", "hypersonic"]},
+    "rf_silent_autonomy": {"label": "RF-Silent Autonomous Systems", "terms": ["rf silent", "autonomous uas", "uncrewed", "collaborative combat aircraft", "drone"]},
+    "gps_adversarial_navigation": {"label": "GPS-Denied and Adversarial Navigation", "terms": ["gps denied", "gps spoofing", "pnt", "navigation warfare"]},
+    "adversarial_optical": {"label": "Adversarial Optical Sensing", "terms": ["optical spoofing", "eo/ir", "electro-optical", "infrared", "sensor fusion", "geometry", "computer vision"]},
+    "flytrap_class": {"label": "Printed and Appearance-Based Spoofs", "terms": ["adversarial patch", "camouflage", "printed spoof", "visual deception"]}
+  }
+}
