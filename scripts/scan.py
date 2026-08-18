@@ -1,60 +1,163 @@
 #!/usr/bin/env python3
-import csv,hashlib,json,re,ssl
-from datetime import datetime,timezone
+import csv, hashlib, json, re, ssl
+from datetime import datetime, timezone
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin
-from urllib.request import Request,urlopen
-ROOT=Path(__file__).resolve().parents[1];CFG=json.loads((ROOT/'config'/'sources.json').read_text());NOW=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
-class Links(HTMLParser):
- def __init__(self):super().__init__();self.links=[];self.href=None;self.text=[]
- def handle_starttag(self,t,a):
-  if t=='a':self.href=dict(a).get('href');self.text=[]
- def handle_data(self,d):
-  if self.href is not None:self.text.append(d)
- def handle_endtag(self,t):
-  if t=='a' and self.href:self.links.append((self.href,' '.join(' '.join(self.text).split())));self.href=None;self.text=[]
-def fetch(u):
- with urlopen(Request(u,headers={'User-Agent':'OTIS-Opportunity-Tracker/1.1 (+https://github.com/SkyGuardDefense/otis-tracker)'}),timeout=25,context=ssl.create_default_context()) as r:return r.status,r.geturl(),r.read(1500000).decode('utf-8',errors='replace')
+from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parents[1]
+CFG = json.loads((ROOT / 'config' / 'sources.json').read_text())
+NOW = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
+USER_AGENT = 'OTIS-Opportunity-Tracker/2.0 (+https://github.com/SkyGuardDefense/otis-tracker)'
+
+class Page(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.links, self.href, self.anchor, self.parts = [], None, [], []
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            self.href, self.anchor = dict(attrs).get('href'), []
+    def handle_data(self, data):
+        self.parts.append(data)
+        if self.href is not None:
+            self.anchor.append(data)
+    def handle_endtag(self, tag):
+        if tag == 'a' and self.href:
+            self.links.append((self.href, ' '.join(' '.join(self.anchor).split())))
+            self.href, self.anchor = None, []
+
+def fetch(url):
+    request = Request(url, headers={'User-Agent': USER_AGENT, 'Accept': 'text/html,application/xhtml+xml'})
+    with urlopen(request, timeout=25, context=ssl.create_default_context()) as response:
+        return response.status, response.geturl(), response.read(1500000).decode('utf-8', errors='replace')
+
+def clean(value):
+    return re.sub(r'\s+', ' ', unescape(value or '')).strip()
+
+def canonical(url):
+    parsed = urlparse(url)
+    return urlunparse((parsed.scheme, parsed.netloc.lower(), parsed.path.rstrip('/'), '', '', ''))
+
+def identifier(text):
+    match = re.search(r'\b(?:DON|AF|ARMY|SOCOM|DIU)[0-9A-Z][0-9A-Z_-]{3,}\b', text, re.I)
+    return match.group(0).upper() if match else ''
+
+def relevance(text):
+    lower = text.lower()
+    return sorted({term for term in CFG['keywords'] if term.lower() in lower})
+
 def tags(matches):
- s=' '.join(matches).lower();out=[]
- for label,terms in {'Counter-UxS':['uas','uxs','drone','counter'],'EO/IR':['optical','eo/ir','electro-optical','infrared'],'Sensor Fusion':['fusion','geometry'],'Autonomy':['autonomy','edge ai','artificial intelligence'],'Unmanned Payload':['payload','unmanned']}.items():
-  if any(t in s for t in terms):out.append(label)
- return out or ['OTIS relevance needs review']
-def award(channel,text):
- s=(channel+' '+text).lower()
- if 'sbir' in s or 'sttr' in s:return 'SBIR/STTR'
- if 'accelerator' in s:return 'Accelerator / seed funding'
- if 'rfi' in s:return 'RFI / market research'
- if 'diu' in s:return 'Commercial Solutions Opening / unspecified'
- return 'Not published'
+    text = ' '.join(matches).lower()
+    groups = {
+        'Fiber-Optic / RF-Denied': ['fiber optic', 'rf-silent'],
+        'Glide / Terminal-Phase': ['glide'],
+        'Counter-UxS': ['uas', 'uxs', 'drone', 'counter'],
+        'EO/IR': ['optical', 'eo/ir', 'electro-optical', 'infrared', 'passive detection'],
+        'Sensor Fusion / Geometry': ['fusion', 'geometry'],
+        'Autonomy / Edge AI': ['autonomy', 'edge ai', 'artificial intelligence'],
+        'Adversarial Spoofing': ['spoofing']
+    }
+    return [label for label, terms in groups.items() if any(term in text for term in terms)] or ['OTIS relevance needs review']
+
+def award(channel, text):
+    value = (channel + ' ' + text).lower()
+    if 'sbir' in value or 'sttr' in value:
+        return 'SBIR/STTR'
+    if 'xtech' in value:
+        return 'xTech competition'
+    if 'rfi' in value:
+        return 'RFI / market research'
+    if 'diu' in value:
+        return 'Commercial Solutions Opening / unspecified'
+    return 'Not published'
+
+def accepts(source, url, label, matches):
+    patterns = source.get('includePatterns', [])
+    haystack = url + ' ' + label
+    return bool(matches) or any(re.search(pattern, haystack, re.I) for pattern in patterns)
+
+def candidate(source, page_url, url, label):
+    source_tier = source.get('tier', 'official')
+    matches = relevance(label + ' ' + url)
+    title = clean(label) or f"{source['name']} candidate"
+    key = identifier(title + ' ' + url) or canonical(url)
+    return {
+        'source': source['name'], 'channel': source['channel'], 'sourceTier': source_tier,
+        'sourceUrl': page_url, 'candidateUrl': canonical(url), 'canonicalKey': key,
+        'anchorText': title[:500], 'keywordMatches': matches, 'checkedAt': NOW,
+        'reviewStatus': 'Needs validation' if source_tier == 'official' else 'Lead — official verification required'
+    }
+
+def record_from(candidate_row):
+    title = candidate_row['anchorText']
+    url = candidate_row['candidateUrl']
+    source_tier = candidate_row['sourceTier']
+    return {
+        'id': 'auto-' + hashlib.sha1(candidate_row['canonicalKey'].encode()).hexdigest()[:12],
+        'opportunity': title, 'sponsor': candidate_row['source'], 'channel': candidate_row['channel'],
+        'sourceUrl': url, 'datePosted': '', 'deadline': '',
+        'awardType': award(candidate_row['channel'], title), 'otisMatch': tags(candidate_row['keywordMatches']),
+        'fitScore': min(5, max(2, 2 + len(candidate_row['keywordMatches']) // 2)),
+        'urgency': 'MONITOR', 'status': candidate_row['reviewStatus'],
+        'nextAction': 'Verify against an official notice before bid/no-bid review' if source_tier != 'official' else 'Open source and verify opportunity facts and deadline',
+        'lastChecked': NOW, 'autoGenerated': True, 'sourcePage': candidate_row['sourceUrl'],
+        'sourceTier': source_tier, 'canonicalKey': candidate_row['canonicalKey'],
+        'keywordMatches': candidate_row['keywordMatches']
+    }
+
 def main():
- keys=[k.lower() for k in CFG['keywords']];report={'scannedAt':NOW,'sources':[]};candidates=[]
- for source in CFG['sources']:
-  result={'name':source['name'],'channel':source['channel'],'url':source['url'],'checkedAt':NOW}
-  try:
-   status,final,html=fetch(source['url']);m=re.search(r'<title[^>]*>(.*?)</title>',html,re.I|re.S);result.update({'status':status,'finalUrl':final,'title':re.sub(r'\s+',' ',unescape(m.group(1))).strip() if m else ''});p=Links();p.feed(html);seen=set()
-   for href,text in p.links:
-    url=urljoin(final,href);matches=sorted({k for k in keys if k in f'{text} {url}'.lower()})
-    if matches and url not in seen and url.startswith(('http://','https://')):
-     seen.add(url);candidates.append({'source':source['name'],'channel':source['channel'],'sourceUrl':source['url'],'candidateUrl':url,'anchorText':text[:500],'keywordMatches':matches,'checkedAt':NOW,'reviewStatus':'Needs validation'})
-   result['candidateCount']=sum(c['source']==source['name'] for c in candidates)
-  except Exception as e:result['error']=f'{type(e).__name__}: {e}'
-  report['sources'].append(result)
- records=json.loads((ROOT/'data'/'opportunities.json').read_text());by_url={r.get('sourceUrl'):r for r in records if r.get('sourceUrl')};added=updated=0
- for c in candidates:
-  url=c['candidateUrl'];existing=by_url.get(url);title=c['anchorText'] or f"{c['source']} candidate";base={'id':'auto-'+hashlib.sha1(url.encode()).hexdigest()[:12],'opportunity':title,'sponsor':c['source'],'channel':c['channel'],'sourceUrl':url,'datePosted':'','deadline':'','awardType':award(c['channel'],title),'otisMatch':tags(c['keywordMatches']),'fitScore':min(5,max(2,2+len(c['keywordMatches'])//2)),'urgency':'MONITOR','status':'Needs validation','nextAction':'Open source, verify opportunity facts and deadline','lastChecked':NOW,'autoGenerated':True,'sourcePage':c['sourceUrl'],'keywordMatches':c['keywordMatches']}
-  if existing:
-   for k,v in base.items():
-    if k in ('lastChecked','keywordMatches','sourcePage','autoGenerated') or not existing.get(k):existing[k]=v
-   updated+=1
-  else:records.append(base);by_url[url]=base;added+=1
- reports=ROOT/'reports';reports.mkdir(exist_ok=True);report['trackerUpsert']={'added':added,'updated':updated,'totalRecords':len(records)};(reports/'latest-scan.json').write_text(json.dumps(report,indent=2)+'\n');(reports/'candidates.json').write_text(json.dumps(candidates,indent=2)+'\n');(ROOT/'data'/'opportunities.json').write_text(json.dumps(records,indent=2)+'\n')
- fields=['id','opportunity','sponsor','channel','sourceUrl','datePosted','deadline','awardType','otisMatch','fitScore','urgency','status','nextAction','lastChecked']
- with (ROOT/'data'/'opportunities.csv').open('w',newline='') as h:
-  w=csv.DictWriter(h,fieldnames=fields);w.writeheader()
-  for r in records:
-   row={f:r.get(f,'') for f in fields};row['otisMatch']=' | '.join(row['otisMatch']) if isinstance(row['otisMatch'],list) else row['otisMatch'];w.writerow(row)
- print(json.dumps({'scannedAt':NOW,'sources':len(report['sources']),'candidates':len(candidates),'added':added,'updated':updated}))
-if __name__=='__main__':main()
+    report = {'scannedAt': NOW, 'sources': []}
+    rows, seen = [], set()
+    for source in CFG['sources']:
+        result = {'name': source['name'], 'channel': source['channel'], 'tier': source.get('tier', 'official'), 'url': source['url'], 'checkedAt': NOW}
+        try:
+            status, final, html = fetch(source['url'])
+            page = Page(); page.feed(html)
+            title_match = re.search(r'<title[^>]*>(.*?)</title>', html, re.I | re.S)
+            result.update({'status': status, 'finalUrl': final, 'title': clean(title_match.group(1)) if title_match else ''})
+            for href, label in page.links:
+                url = urljoin(final, href)
+                if not url.startswith(('http://', 'https://')) or not accepts(source, url, label, relevance(label + ' ' + url)):
+                    continue
+                row = candidate(source, source['url'], url, label)
+                if row['canonicalKey'] not in seen:
+                    seen.add(row['canonicalKey']); rows.append(row)
+            result['candidateCount'] = sum(row['source'] == source['name'] for row in rows)
+        except Exception as error:
+            result['error'] = f'{type(error).__name__}: {error}'
+        report['sources'].append(result)
+
+    data_path = ROOT / 'data' / 'opportunities.json'
+    records = json.loads(data_path.read_text())
+    by_key = {(row.get('canonicalKey') or row.get('sourceUrl') or row.get('id')): row for row in records}
+    added = updated = 0
+    for row in rows:
+        key = row['canonicalKey']
+        existing = by_key.get(key)
+        generated = record_from(row)
+        if existing is None:
+            records.append(generated); by_key[key] = generated; added += 1
+        elif existing.get('autoGenerated'):
+            for field, value in generated.items():
+                if field in {'lastChecked', 'sourcePage', 'sourceTier', 'canonicalKey', 'keywordMatches'} or not existing.get(field):
+                    existing[field] = value
+            updated += 1
+
+    reports = ROOT / 'reports'; reports.mkdir(exist_ok=True)
+    report['trackerUpsert'] = {'added': added, 'updated': updated, 'totalRecords': len(records)}
+    (reports / 'latest-scan.json').write_text(json.dumps(report, indent=2) + '\n')
+    (reports / 'candidates.json').write_text(json.dumps(rows, indent=2) + '\n')
+    data_path.write_text(json.dumps(records, indent=2) + '\n')
+    fields = ['id', 'opportunity', 'sponsor', 'channel', 'sourceUrl', 'datePosted', 'deadline', 'awardType', 'otisMatch', 'fitScore', 'urgency', 'status', 'nextAction', 'lastChecked']
+    with (ROOT / 'data' / 'opportunities.csv').open('w', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields); writer.writeheader()
+        for row in records:
+            output = {field: row.get(field, '') for field in fields}
+            output['otisMatch'] = ' | '.join(output['otisMatch']) if isinstance(output['otisMatch'], list) else output['otisMatch']
+            writer.writerow(output)
+    print(json.dumps({'scannedAt': NOW, 'sources': len(report['sources']), 'candidates': len(rows), 'added': added, 'updated': updated}))
+
+if __name__ == '__main__':
+    main()
