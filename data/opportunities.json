@@ -1,1 +1,23 @@
-[]
+[[
+  {
+    "id": "diu-2026-001",
+    "opportunity": "Official opportunity title",
+    "sponsor": "Defense Innovation Unit",
+    "channel": "DIU Open Solicitation",
+    "sourceUrl": "https://official-source-url",
+    "datePosted": "2026-08-17",
+    "deadline": "2026-08-31",
+    "awardType": "Commercial Solutions Opening",
+    "otisMatch": [
+      "EO/IR",
+      "Sensor Fusion",
+      "Counter-UxS"
+    ],
+    "fitScore": 5,
+    "urgency": "ESCALATE",
+    "status": "Open",
+    "nextAction": "Review official solicitation and decide bid/no-bid",
+    "lastChecked": "2026-08-17T19:00:00-06:00"
+  }
+]
+]
