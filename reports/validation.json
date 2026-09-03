@@ -1,16 +1,16 @@
 {
-  "validatedAt": "2026-09-02T16:54:36Z",
+  "validatedAt": "2026-09-03T16:43:52Z",
   "summary": {
-    "official_page_requires_review": 96,
+    "official_page_requires_review": 95,
     "non_opportunity_navigation_or_social": 13,
-    "source_unavailable": 9,
+    "source_unavailable": 10,
     "official_topic_page": 30
   },
   "records": [
     {
       "id": "auto-65763c201bdb",
       "sourceUrl": "https://events.sofwerx.org/peo-m-unmanned-surface-vehicle-usv",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://events.sofwerx.org/peo-m-unmanned-surface-vehicle-usv",
       "httpStatus": 200,
@@ -24,7 +24,7 @@
     {
       "id": "auto-bbabe1a49cdf",
       "sourceUrl": "https://events.sofwerx.org/uxsaimissionautonomy",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://events.sofwerx.org/uxsaimissionautonomy",
       "httpStatus": 200,
@@ -38,12 +38,12 @@
     {
       "id": "auto-70405d4100c8",
       "sourceUrl": "https://decisivedrones.com/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
-      "httpStatus": 200,
+      "httpStatus": 202,
       "finalUrl": "https://decisivedrones.com/",
-      "pageTitle": "Decisive Drones",
+      "pageTitle": "",
       "topicId": "",
       "labelledDates": [],
       "verified": false,
@@ -52,7 +52,7 @@
     {
       "id": "auto-95ce9ada4c29",
       "sourceUrl": "https://swx-strapi-events-images.s3.us-east-1.amazonaws.com/topic_SOC_26_BZ_04_DV_005_Replanning_for_Evasive_Autonomy_to_Counter_Threats_bfbf35c43f.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -66,7 +66,7 @@
     {
       "id": "auto-18766fe5ed4f",
       "sourceUrl": "https://events.sofwerx.org/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -80,7 +80,7 @@
     {
       "id": "auto-7bf0ddcf2f0a",
       "sourceUrl": "https://events.sofwerx.org/ussocom-sponsored-events-exercises",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -94,7 +94,7 @@
     {
       "id": "auto-b17325a0a901",
       "sourceUrl": "https://sofwerx.org/ecosystem",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -108,7 +108,7 @@
     {
       "id": "auto-51a31a25cea1",
       "sourceUrl": "https://sofwerx.org/impact#event-statistics",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -122,7 +122,7 @@
     {
       "id": "auto-8f777131a258",
       "sourceUrl": "https://events.sofwerx.org/sbir-26-bz-release-4",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -136,7 +136,7 @@
     {
       "id": "auto-4a2cf66f1b92",
       "sourceUrl": "https://sam.gov/workspace/contract/opp/832104b46d5344d58b9673ebd98b737d/view",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -150,7 +150,7 @@
     {
       "id": "auto-b2606ea3dbbf",
       "sourceUrl": "https://sam.gov/workspace/contract/opp/16251016750c4806ab0d63cb13b3b088/view",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -164,7 +164,7 @@
     {
       "id": "auto-c83d96b202e0",
       "sourceUrl": "https://sam.gov/workspace/contract/opp/0085814b2fa8448cabf0cecb914935d5/view",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -178,7 +178,7 @@
     {
       "id": "auto-b05d735affda",
       "sourceUrl": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fevents.sofwerx.org%2Fsbir-26-bz-release-4",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -187,7 +187,7 @@
     {
       "id": "auto-2ee109c88feb",
       "sourceUrl": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fevents.sofwerx.org%2Fsbir-26-bz-release-4",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -196,7 +196,7 @@
     {
       "id": "auto-668387aa310d",
       "sourceUrl": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fevents.sofwerx.org%2Fsbir-26-bz-release-4&text=SBIR+26.BZ+Release+4&hashtags=SOFWERX",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -205,7 +205,7 @@
     {
       "id": "auto-b2bd4b95314e",
       "sourceUrl": "https://www.dodsbirsttr.mil/topics-app/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -219,7 +219,7 @@
     {
       "id": "auto-8174c5524d5b",
       "sourceUrl": "https://swx-strapi-events-images.s3.us-east-1.amazonaws.com/SBIR_26_BZ_R4_Telecon_Transcript_Advanced_Stand_off_Detection_of_Concealed_Materials_ASDCM_02ed803af1.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -233,7 +233,7 @@
     {
       "id": "auto-bce8f008f07a",
       "sourceUrl": "https://swx-strapi-events-images.s3.us-east-1.amazonaws.com/SBIR_26_BZ_R4_Telecon_Transcript_REACT_5f9199bb85.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -247,7 +247,7 @@
     {
       "id": "auto-e010fd4ad3d0",
       "sourceUrl": "https://www.dodsbirsttr.mil/submissions/login",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -261,7 +261,7 @@
     {
       "id": "auto-2cb607ae273a",
       "sourceUrl": "https://www.socom.mil/sof-atl/pages/sbir.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -270,7 +270,7 @@
     {
       "id": "auto-b144598af65e",
       "sourceUrl": "https://www.socom.mil/SOF-ATL/Pages/technical-experimentation.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -284,7 +284,7 @@
     {
       "id": "auto-2a30cc69b069",
       "sourceUrl": "https://www.socom.mil/SOF-ATL/Pages/baa.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -298,7 +298,7 @@
     {
       "id": "auto-9d8add5eebdc",
       "sourceUrl": "https://www.socom.mil/SOF-ATL/Pages/sbir.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -312,7 +312,7 @@
     {
       "id": "auto-19fcaa0bd857",
       "sourceUrl": "https://www.socom.mil/SOF-ATL/Pages/sbir_FAQs.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -326,7 +326,7 @@
     {
       "id": "auto-261a9376ddb2",
       "sourceUrl": "https://www.dodsbirsttr.mil/submissions/learning-support/training-materials",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -340,7 +340,7 @@
     {
       "id": "auto-4939e64b28af",
       "sourceUrl": "https://www.defensesbirsttr.mil/SBIR-STTR/Program/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -350,7 +350,7 @@
     {
       "id": "auto-036490386ac9",
       "sourceUrl": "https://www.sbir.gov/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -364,7 +364,7 @@
     {
       "id": "auto-4f2ed84691fc",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/sbir-sttr-overview/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -378,7 +378,7 @@
     {
       "id": "auto-52bec39c1a62",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/sequential-opportunities/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -392,7 +392,7 @@
     {
       "id": "auto-b210fa6aaaf2",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/phase-iii/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -406,7 +406,7 @@
     {
       "id": "auto-68480c3a54eb",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/previously-recorded-webinars/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -420,7 +420,7 @@
     {
       "id": "auto-a1442f9c1303",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/portfolio/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -434,7 +434,7 @@
     {
       "id": "auto-2bd65a23c3f1",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/risk-based-analysis/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -448,7 +448,7 @@
     {
       "id": "auto-b9a135f54c50",
       "sourceUrl": "https://afwerx.com/divisions/sbir-sttr/technical-and-business-assistance-taba/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -462,7 +462,7 @@
     {
       "id": "auto-50cbedd9ca79",
       "sourceUrl": "https://afwerxchallenge.com",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -476,7 +476,7 @@
     {
       "id": "auto-df8e86308b4e",
       "sourceUrl": "https://afwerx.com/events-calendar/logistics-officer-association-loa-w-i-s-e-symposium-warfighter-series/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -490,7 +490,7 @@
     {
       "id": "auto-0283f67ca123",
       "sourceUrl": "https://www.navysbir.com/cdn-cgi/content?id=BR.upQT94vXKH7nAvZqoKLXWSkhtDaA4FyypQEHSrSc-1787036365.7293253-1.2.1.1-G19ikQsgFCJk.4zV37gIfz8Tno3fK7cnXeSTFJ17lL.NUhGJNk7omVEneBMaFCg7",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -500,7 +500,7 @@
     {
       "id": "auto-ad129ffc5709",
       "sourceUrl": "https://www.navysbir.com/#default",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -514,7 +514,7 @@
     {
       "id": "auto-d3f3a4fcd68e",
       "sourceUrl": "https://www.navysbir.com/overview.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -523,7 +523,7 @@
     {
       "id": "auto-448da7e6d31c",
       "sourceUrl": "https://www.navysbir.com/faqs.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -537,7 +537,7 @@
     {
       "id": "auto-99f5f538e27d",
       "sourceUrl": "https://www.navysbir.com/overview2.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -551,7 +551,7 @@
     {
       "id": "auto-44492a1013d2",
       "sourceUrl": "https://www.sbir.gov/faq",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -565,7 +565,7 @@
     {
       "id": "auto-fcc17813ac32",
       "sourceUrl": "https://www.navysbir.com/phaseii.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -579,7 +579,7 @@
     {
       "id": "auto-2f1373396193",
       "sourceUrl": "https://www.sbir.gov/tutorials",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -593,7 +593,7 @@
     {
       "id": "auto-e72e7eb46b81",
       "sourceUrl": "https://www.sbir.gov/faq/eligibility-requirements",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -607,7 +607,7 @@
     {
       "id": "auto-c2b333062d2f",
       "sourceUrl": "https://www.navysbir.com/gettingstarted.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -616,7 +616,7 @@
     {
       "id": "auto-6735a77099c9",
       "sourceUrl": "https://www.navysbir.com/policy.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -630,7 +630,7 @@
     {
       "id": "auto-0c4493f15b82",
       "sourceUrl": "https://www.navysbir.com/paid.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -644,7 +644,7 @@
     {
       "id": "auto-c503d7589128",
       "sourceUrl": "https://www.navysbir.com/fwa.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -658,7 +658,7 @@
     {
       "id": "auto-55e0e1c890d6",
       "sourceUrl": "https://www.dodsbirsttr.mil/submissions/solicitation-documents/active-solicitations",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -672,7 +672,7 @@
     {
       "id": "auto-e9a03e1395ad",
       "sourceUrl": "https://www.navysbir.com/solicitations.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -686,7 +686,7 @@
     {
       "id": "auto-ca77e877d85b",
       "sourceUrl": "https://www.navysbir.com/previous.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -700,7 +700,7 @@
     {
       "id": "auto-388f497cf6d3",
       "sourceUrl": "https://www.navysbir.com/links_forms.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -714,7 +714,7 @@
     {
       "id": "auto-6612e698bb39",
       "sourceUrl": "https://www.navysbir.com/programs/catapult.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -728,7 +728,7 @@
     {
       "id": "auto-22f8d54fb072",
       "sourceUrl": "https://www.navysbir.com/programs/navystp.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -742,7 +742,7 @@
     {
       "id": "auto-f020b5e20b4f",
       "sourceUrl": "https://www.navysbir.com/sec/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -756,7 +756,7 @@
     {
       "id": "auto-a4fbe679c222",
       "sourceUrl": "https://www.navysbir.com/programs/navylaunch.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -770,21 +770,17 @@
     {
       "id": "auto-38b8668cc829",
       "sourceUrl": "https://www.navysbirsearch.com/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
-      "httpStatus": 200,
-      "finalUrl": "https://www.navysbirsearch.com/",
-      "pageTitle": "Navy SBIR Search",
-      "topicId": "",
-      "labelledDates": [],
       "verified": false,
-      "disposition": "official_page_requires_review"
+      "disposition": "source_unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     },
     {
       "id": "auto-84b56ccd95d6",
       "sourceUrl": "https://www.navysbir.com/presentations.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -798,7 +794,7 @@
     {
       "id": "auto-b72043b5fe99",
       "sourceUrl": "https://www.navysbir.com/reference.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -812,7 +808,7 @@
     {
       "id": "auto-d7e42c438f06",
       "sourceUrl": "https://www.navysbir.com/success",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -826,7 +822,7 @@
     {
       "id": "auto-2316acf1a12f",
       "sourceUrl": "https://www.navysbir.com/cyber.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -840,7 +836,7 @@
     {
       "id": "auto-685beb090620",
       "sourceUrl": "https://www.navysbir.com/trans-com.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -854,7 +850,7 @@
     {
       "id": "auto-812384eada35",
       "sourceUrl": "https://www.navysbir.com/ex_links.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -868,7 +864,7 @@
     {
       "id": "auto-cde9bc12b4e1",
       "sourceUrl": "https://www.navysbir.com/poc.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -882,7 +878,7 @@
     {
       "id": "auto-f5ba50701010",
       "sourceUrl": "https://www.navysbir.com/help.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -896,7 +892,7 @@
     {
       "id": "auto-eff12999c75e",
       "sourceUrl": "https://twitter.com/donsbir",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -905,7 +901,7 @@
     {
       "id": "auto-0da865914f43",
       "sourceUrl": "https://www.linkedin.com/company/donsbir",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -914,7 +910,7 @@
     {
       "id": "auto-ce8a1e27e244",
       "sourceUrl": "https://www.navysbir.com/success/docs/Programs_Management_Anylitics-26.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -924,7 +920,7 @@
     {
       "id": "auto-81ad9bbb3556",
       "sourceUrl": "https://www.navysbir.com/events.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -938,7 +934,7 @@
     {
       "id": "auto-0709d1d08094",
       "sourceUrl": "https://www.navysbir.com/selections.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -947,7 +943,7 @@
     {
       "id": "auto-0be67a8d2573",
       "sourceUrl": "https://www.navysbir.com/submission.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -956,7 +952,7 @@
     {
       "id": "auto-f11a6ace6ec7",
       "sourceUrl": "https://www.dodsbirsttr.mil/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -970,7 +966,7 @@
     {
       "id": "auto-9d01ea831d25",
       "sourceUrl": "https://sbir.gov",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -984,7 +980,7 @@
     {
       "id": "auto-ecf1af594489",
       "sourceUrl": "https://www.navysbir.com/topics26_5.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://www.navysbir.com/topics26_5.htm",
       "httpStatus": 200,
@@ -998,7 +994,7 @@
     {
       "id": "auto-4160aad3bd6c",
       "sourceUrl": "https://www.navysbir.com/topics26_4.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://www.navysbir.com/topics26_4.htm",
       "httpStatus": 200,
@@ -1012,7 +1008,7 @@
     {
       "id": "auto-4e5450612182",
       "sourceUrl": "https://www.navysbir.com/noh26.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1026,7 +1022,7 @@
     {
       "id": "auto-850a857e595d",
       "sourceUrl": "https://www.navysbir.com/sel-awd/26_01-selections.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1040,7 +1036,7 @@
     {
       "id": "auto-ee3590938891",
       "sourceUrl": "https://www.navysbir.com/programs/navylaunch.htm#bootreg",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1054,7 +1050,7 @@
     {
       "id": "auto-63ff4969e133",
       "sourceUrl": "https://www.navysbir.com/docs/Transitions_Spring-2026.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -1064,7 +1060,7 @@
     {
       "id": "auto-9224bb9b92c4",
       "sourceUrl": "https://www.navysbir.com/archive1.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1078,7 +1074,7 @@
     {
       "id": "auto-5e9ddbbdbaf6",
       "sourceUrl": "https://www.navysbir.com/#top",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1092,7 +1088,7 @@
     {
       "id": "auto-b843a08ec80e",
       "sourceUrl": "https://www.navysbir.com/privacy.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1106,7 +1102,7 @@
     {
       "id": "auto-737ff3e25ba7",
       "sourceUrl": "https://www.secnav.navy.mil/smallbusiness/Pages/sbir-sttr.aspx",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1120,7 +1116,7 @@
     {
       "id": "auto-cc8061f89dd2",
       "sourceUrl": "https://www.navysbir.com/docs/Navy-SBIR-PR-Flyer-03-09-26.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -1130,7 +1126,7 @@
     {
       "id": "auto-65438fcec2d5",
       "sourceUrl": "https://www.navysbir.com/docs/Navy-STP-Annual_Report-23_24.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -1140,7 +1136,7 @@
     {
       "id": "auto-aeeab9a5774b",
       "sourceUrl": "https://www.navysbir.com/docs/Understanding_Transition-10-27-24.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "verified": false,
@@ -1150,7 +1146,7 @@
     {
       "id": "auto-67195f3c41c4",
       "sourceUrl": "https://www.navysbir.com/docs/DON-SBIR_STTR_Phase-III_Guidebook_V2-2020.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://www.navysbir.com/docs/DON-SBIR_STTR_Phase-III_Guidebook_V2-2020.pdf",
       "verified": false,
@@ -1160,7 +1156,7 @@
     {
       "id": "auto-9a92dd3dea8c",
       "sourceUrl": "https://www.sbir.gov/participating-agencies#main-content",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1174,7 +1170,7 @@
     {
       "id": "auto-bcf17124119b",
       "sourceUrl": "https://www.sbir.gov/contact-us",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1188,7 +1184,7 @@
     {
       "id": "auto-a70e9a6c9441",
       "sourceUrl": "https://www.sbir.gov/participating-agencies#dashboard-login-modal",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -1197,7 +1193,7 @@
     {
       "id": "auto-ca20f86a6897",
       "sourceUrl": "https://app.www.sbir.gov/company-registration/overview",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1211,7 +1207,7 @@
     {
       "id": "auto-0cf37546be29",
       "sourceUrl": "https://app.www.sbir.gov/app-landing/fetch-login-url?isExternal=true",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1225,7 +1221,7 @@
     {
       "id": "auto-ce27e309239a",
       "sourceUrl": "https://app.www.sbir.gov/app-landing/fetch-login-url?isExternal=false",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1239,7 +1235,7 @@
     {
       "id": "auto-ec8e70615a15",
       "sourceUrl": "https://www.sbir.gov/about",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1253,7 +1249,7 @@
     {
       "id": "auto-4cec1e0e1757",
       "sourceUrl": "https://www.sbir.gov/lab2market",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1267,7 +1263,7 @@
     {
       "id": "auto-c36a59eefd25",
       "sourceUrl": "https://www.sbir.gov/participating-agencies",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1281,7 +1277,7 @@
     {
       "id": "auto-bacd58134f23",
       "sourceUrl": "https://www.sbir.gov/about/policies",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1295,7 +1291,7 @@
     {
       "id": "auto-ada7a7ba2ee7",
       "sourceUrl": "https://www.sbir.gov/impact",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1309,7 +1305,7 @@
     {
       "id": "auto-9c5946ce7c8e",
       "sourceUrl": "https://www.sbir.gov/impact/impact-reports",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1323,7 +1319,7 @@
     {
       "id": "auto-5b5d7b1a4ace",
       "sourceUrl": "https://www.sbir.gov/success-stories",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1337,7 +1333,7 @@
     {
       "id": "auto-87b7f8201781",
       "sourceUrl": "https://www.sbir.gov/impact/impact-reports/archive",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1351,7 +1347,7 @@
     {
       "id": "auto-31b79306bf78",
       "sourceUrl": "https://www.sbir.gov/awards",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1365,7 +1361,7 @@
     {
       "id": "auto-55abe599d323",
       "sourceUrl": "https://www.sbir.gov/portfolio",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1379,7 +1375,7 @@
     {
       "id": "auto-9b8ba7bf91ec",
       "sourceUrl": "https://www.sbir.gov/api",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1393,7 +1389,7 @@
     {
       "id": "auto-1d0e30cfc8ab",
       "sourceUrl": "https://www.sbir.gov/data-resources",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1407,7 +1403,7 @@
     {
       "id": "auto-e945b5817378",
       "sourceUrl": "https://www.sbir.gov/data-resources/data-dictionary",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1421,7 +1417,7 @@
     {
       "id": "auto-893317afe338",
       "sourceUrl": "https://www.sbir.gov/apply",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1435,7 +1431,7 @@
     {
       "id": "auto-8062deb53b99",
       "sourceUrl": "https://www.sbir.gov/topics",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1449,7 +1445,7 @@
     {
       "id": "auto-95673f2c6501",
       "sourceUrl": "https://www.sbir.gov/community",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1463,7 +1459,7 @@
     {
       "id": "auto-91dbf8ab8308",
       "sourceUrl": "https://www.sbir.gov/community#event-spotlight",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1477,7 +1473,7 @@
     {
       "id": "auto-a1d70e369208",
       "sourceUrl": "https://www.sbir.gov/events-listing",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1491,7 +1487,7 @@
     {
       "id": "auto-9fee1008e6dd",
       "sourceUrl": "https://www.sbir.gov/community/fast",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1505,7 +1501,7 @@
     {
       "id": "auto-ba1a614a99bb",
       "sourceUrl": "https://www.sbir.gov/community/gafc",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1519,7 +1515,7 @@
     {
       "id": "auto-6b244278ef28",
       "sourceUrl": "https://www.sbir.gov/coming-soon",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1533,7 +1529,7 @@
     {
       "id": "auto-87aa122df4fb",
       "sourceUrl": "https://www.sbir.gov/fraud-waste-abuse",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1547,7 +1543,7 @@
     {
       "id": "auto-32571f2757fd",
       "sourceUrl": "https://x.com/sbirgov",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "disposition": "non_opportunity_navigation_or_social",
@@ -1556,7 +1552,7 @@
     {
       "id": "auto-0661af6a2b87",
       "sourceUrl": "https://s3.us-gov-west-1.amazonaws.com/publicdocs.diu.mil/DIU_CSO_HQ0845-20-S-C001.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1570,7 +1566,7 @@
     {
       "id": "auto-9ad27852f54b",
       "sourceUrl": "https://sofweek.org/visit-accelerator-alley/",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "",
       "canonicalKey": "",
       "httpStatus": 200,
@@ -1584,7 +1580,7 @@
     {
       "id": "auto-945da8d94800",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV068.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV068",
       "httpStatus": 200,
@@ -1598,7 +1594,7 @@
     {
       "id": "auto-16296e519b52",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV069.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV069",
       "httpStatus": 200,
@@ -1612,7 +1608,7 @@
     {
       "id": "auto-b86e5b769673",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV070.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV070",
       "httpStatus": 200,
@@ -1626,7 +1622,7 @@
     {
       "id": "auto-249cd8ac25aa",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV071.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV071",
       "httpStatus": 200,
@@ -1640,7 +1636,7 @@
     {
       "id": "auto-005caae84626",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV072.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV072",
       "httpStatus": 200,
@@ -1654,7 +1650,7 @@
     {
       "id": "auto-56eb6f255c51",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV073.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV073",
       "httpStatus": 200,
@@ -1668,7 +1664,7 @@
     {
       "id": "auto-78df4439970b",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV074.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV074",
       "httpStatus": 200,
@@ -1682,7 +1678,7 @@
     {
       "id": "auto-388130c5483c",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV075.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV075",
       "httpStatus": 200,
@@ -1696,7 +1692,7 @@
     {
       "id": "auto-fc435517e369",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV076.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV076",
       "httpStatus": 200,
@@ -1710,7 +1706,7 @@
     {
       "id": "auto-8cb88dc9d501",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV077.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV077",
       "httpStatus": 200,
@@ -1724,7 +1720,7 @@
     {
       "id": "auto-e0888904962f",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV078.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV078",
       "httpStatus": 200,
@@ -1738,7 +1734,7 @@
     {
       "id": "auto-a63890ff82c5",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-NV080.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-NV080",
       "httpStatus": 200,
@@ -1752,7 +1748,7 @@
     {
       "id": "auto-1e3ac1f7b7ed",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV081.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV081",
       "httpStatus": 200,
@@ -1766,7 +1762,7 @@
     {
       "id": "auto-bdc29a57e86c",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV082.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV082",
       "httpStatus": 200,
@@ -1780,7 +1776,7 @@
     {
       "id": "auto-3eedd5bca531",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV083.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV083",
       "httpStatus": 200,
@@ -1794,7 +1790,7 @@
     {
       "id": "auto-2ec2917c6ae5",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV084.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV084",
       "httpStatus": 200,
@@ -1808,7 +1804,7 @@
     {
       "id": "auto-606a5248023e",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV085.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV085",
       "httpStatus": 200,
@@ -1822,7 +1818,7 @@
     {
       "id": "auto-f8b0c341df6d",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV086.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV086",
       "httpStatus": 200,
@@ -1836,7 +1832,7 @@
     {
       "id": "auto-0ab0207e37af",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BZ05-DV087.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BZ05-DV087",
       "httpStatus": 200,
@@ -1850,7 +1846,7 @@
     {
       "id": "auto-a4c83d0412e3",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26TZ05-NV022.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26TZ05-NV022",
       "httpStatus": 200,
@@ -1864,7 +1860,7 @@
     {
       "id": "auto-a8d181b3991d",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26TZ05-NV023.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26TZ05-NV023",
       "httpStatus": 200,
@@ -1878,7 +1874,7 @@
     {
       "id": "auto-e1eef648db30",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26TZ05-NV024.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26TZ05-NV024",
       "httpStatus": 200,
@@ -1892,7 +1888,7 @@
     {
       "id": "auto-3e8c2082058a",
       "sourceUrl": "https://twitter.com/donsbir",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DONSBIR",
       "disposition": "non_opportunity_navigation_or_social",
@@ -1901,7 +1897,7 @@
     {
       "id": "auto-3f1bdbed82b6",
       "sourceUrl": "https://www.navysbir.com/n26_5/DON26BX05-NP004.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "DON26BX05-NP004",
       "httpStatus": 200,
@@ -1915,7 +1911,7 @@
     {
       "id": "auto-90cae06ecdbb",
       "sourceUrl": "https://navysbir.us/topics26_5.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://navysbir.us/topics26_5.htm",
       "httpStatus": 200,
@@ -1929,7 +1925,7 @@
     {
       "id": "auto-cf42dbc65b6d",
       "sourceUrl": "https://navysbir.us/topics26_4.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://navysbir.us/topics26_4.htm",
       "httpStatus": 200,
@@ -1943,7 +1939,7 @@
     {
       "id": "auto-0b22720fec2e",
       "sourceUrl": "https://navysbir.us/docs/DON-SBIR_STTR_Phase-III_Guidebook_V2-2020.pdf",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://navysbir.us/docs/DON-SBIR_STTR_Phase-III_Guidebook_V2-2020.pdf",
       "httpStatus": 200,
@@ -1957,7 +1953,7 @@
     {
       "id": "auto-71be52146c2d",
       "sourceUrl": "https://www.navysbir.com/cdn-cgi/content",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://www.navysbir.com/cdn-cgi/content",
       "verified": false,
@@ -1967,7 +1963,7 @@
     {
       "id": "auto-b63089bbd61d",
       "sourceUrl": "https://www.navysbir.com/topics26_6.htm",
-      "checkedAt": "2026-09-02T16:54:36Z",
+      "checkedAt": "2026-09-03T16:43:52Z",
       "sourceTier": "official",
       "canonicalKey": "https://www.navysbir.com/topics26_6.htm",
       "httpStatus": 200,
